@@ -5,11 +5,13 @@ body {
     align-items: center;
     height: 100vh;
     gap: 3em;
+    background-color: gray;
 }
 
 .header {
     display: flex;
     justify-content: center;
+    color: wheat;
 }
 
 .choices {
@@ -29,7 +31,12 @@ body {
     width: 10em;
     height: 10em;
     border-radius: .5em;
-    border: solid #3882f6 3px;
+    border: solid red 3px;
+}
+
+.pic {
+    width: 5em;
+    height: 5em;
 }
 
 .score {
@@ -43,6 +50,6 @@ body {
     border-color: #1f2937;
     font-size: 18px;
     border-radius: .5em;
-    border: solid #3882f6 3px;
+    border: solid red 3px;
     padding: .5em;
 }
